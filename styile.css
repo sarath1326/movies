@@ -1,0 +1,161 @@
+
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+.title{
+
+    font-weight: bold;
+   
+    margin-left: 20px;
+
+}
+.home{
+    color: white;
+    margin-left: 20px;
+}
+
+.plya{
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+
+.row{
+    
+    background-color: #111;
+}
+
+
+h5{
+    color: white;
+    margin-left: 20px;
+}
+
+
+.banner{
+    width: 100%;
+    height: 50vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.btn-icon{
+    background-color: rgb(246, 12, 12);
+}
+
+
+
+
+
+
+
+.swiper{
+   width: 700px;
+   height: 100%;
+   
+   
+   
+
+}
+
+
+.swiper-slide img{
+
+   width: 100%;
+   height: 100%;
+    
+
+}
+
+.swiper .swiper-button-prev , .swiper .swiper-button-next{
+    color: red;
+}
+
+
+.swiper .swiper-pagination-bullet-active{
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+.mainbox{
+   
+    display: flex;
+    padding: 30px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+}
+
+.mainbox::-webkit-scrollbar{
+    display: none;
+}
+
+.img{
+
+    /* max-height: 250px; */
+    height: 250px;
+    width:200px ;
+    margin-right: 10px;
+    transition: 0.5s ease-in-out;
+    border-radius: 20px;
+
+
+}
+
+
+h4{
+    color: white;
+    text-align: center;
+}
+
+i{
+
+    color: white;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.love{
+    color: red;
+}
+
+footer{
+
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.copy{
+    color: black;
+}
+
+span{
+
+    color: red;
+    font-weight: bold;
+    margin-left: 100px;
+}
+
+.footerp{
+    margin-top: 50px;
+}
